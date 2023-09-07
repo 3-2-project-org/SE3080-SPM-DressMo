@@ -9,7 +9,7 @@ function Footer() {
         <div class="contact-content">
           <Link to="/"> Home </Link>
           <Link
-            to="https://github.com/ShwetKhatri2001/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
+            to="https://github.com/cxvxcvcxv/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
             target="_blank"
           >
             About
@@ -34,7 +34,7 @@ function Footer() {
 
         <div className="contact-content">
           <Link
-            to="https://github.com/ShwetKhatri2001/AR-Webstore"
+            to="https://github.com/SxcvxcvcxvhwetKhatxcvcxvcxvri2001/AR-Webstore"
             target="_blank"
           >
             GitHub
@@ -63,7 +63,7 @@ function Footer() {
         </form>
       </div>
       <div class="last">
-        <p>@ 2023 AR-Website | All Rights Reserved</p>
+        <p>@ 2023 AR-DressSpace | All Rights Reserved</p>
       </div>
     </div>
   );

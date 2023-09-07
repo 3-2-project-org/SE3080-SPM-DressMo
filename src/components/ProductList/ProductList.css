@@ -6,3 +6,22 @@
   grid-gap: 2rem;
   margin-bottom: 2rem;
 }
+
+/* ProductList.css */
+
+/* Style for the button */
+.button {
+  background-color: #000000; /* Blue background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove border */
+  cursor: pointer;
+  margin-left: 5%;
+  border-radius: 20px; /* Add pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #787c80; /* Darker blue on hover */
+}

@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 .featuredProducts {
   margin: 100px 200px;
 
@@ -12,15 +13,43 @@
       text-transform: capitalize;
     }
 
-    p{
-      flex:3;
-      color:gray
+    p {
+      flex: 3;
+      color: gray;
     }
   }
 
-  .bottom{
+  .bottom {
     display: flex;
     justify-content: center;
     gap: 50px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .featuredProducts {
+    margin: 50px 20px;
+
+    .top {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 20px;
+
+      h1 {
+        flex: none;
+      }
+
+      p {
+        flex: none;
+        margin-top: 10px;
+      }
+    }
+
+    .bottom {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
   }
 }

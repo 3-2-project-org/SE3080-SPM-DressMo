@@ -10,6 +10,7 @@ import Slider from "./components/Slider/Slider";
 import Feedback from "./components/Feedback/Feedback";
 import Categories from "./components/Categories/Categories";
 import FeaturedProducts from "./components/FeaturedProducts/FeaturedProducts";
+import Custom from "./components/Customize/Custom"; // Import the Custom component
 
 const App = () => {
   return (
@@ -17,12 +18,12 @@ const App = () => {
       <Header />
       <Slider />
       <FeaturedProducts />
-
       <Categories />
       <Routes>
         <Route path="/" element={<ProductList />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/custom" element={<Custom />} /> {/* Add a route for Custom */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

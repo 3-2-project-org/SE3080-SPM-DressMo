@@ -1,101 +1,112 @@
-import sheenchair from "../assets/models/test.glb";
-import ioschair from "../assets/models/test.usdz";
-import painting from "../assets/models/test.glb";
-import iospainting from "../assets/models/test.usdz";
-import car from "../assets/models/test.glb";
-import ioscar from "../assets/models/test.usdz";
-import car1 from "../assets/models/test.glb";
-import ioscar1 from "../assets/models/test.usdz";
+import sheenchair from "../assets/models/shirt.glb";
+import ioschair from "../assets/models/shirt.usdz";
+import painting from "../assets/models/4.glb";
+import iospainting from "../assets/models/4.usdz";
+import car from "../assets/models/3.glb";
+import ioscar from "../assets/models/3.usdz";
+import car1 from "../assets/models/5.glb";
+import ioscar1 from "../assets/models/5.usdz";
 
 const productItems = [
   {
     id: 1,
-    name: "Sheen Chair",
+    name: "T-shirt",
     modelSrc: sheenchair,
     iOSSrc: ioschair,
-    category: "Furniture",
+    category: "T-shirt",
     color: "Orange",
+    customizeButton: "Customize Dress",
   },
   {
     id: 2,
-    name: "Painting",
+    name: "T-shirt",
     modelSrc: painting,
     iOSSrc: iospainting,
     category: "Art",
     color: "Brown",
+    customizeButton: "Customize Dress",
   },
   {
     id: 3,
-    name: "Car",
+    name: "T-shirt",
     modelSrc: car,
     iOSSrc: ioscar,
     category: "Vehicle",
     color: "Blue",
+    customizeButton: "Customize Dress",
   },
 
   {
     id: 4,
-    name: "Sport Car",
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 5,
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 6,
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 7,
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 8,
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 9,
+    name: "T-shirt",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 10,
+    name: "test2",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
   {
-    id: 4,
-    name: "Sport Car",
+    id: 11,
+    name: "test2",
     modelSrc: car1,
     iOSSrc: ioscar1,
     category: "Vehicle",
     color: "Red",
+    customizeButton: "Customize Dress",
   },
 ];
 export default productItems;

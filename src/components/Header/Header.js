@@ -37,7 +37,7 @@ const Header = () => {
                 onClick={closeMobileSidebar}
                 className="project-title"
               >
-                AR Webstore
+                AR DressSpace
               </Link>
             </h3>
             <div className="mobile-menu-icon" onClick={toggleMobileSidebar}>
@@ -57,7 +57,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="https://github.com/ShwetKhatri2001/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
+              to="https://github.com/SxcvxcvhwetKhatri20cxvxcvxcv01/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
               target="_blank"
               onClick={toggleMobileSidebar}
               // activeStyle={{ color: "blue", textDecoration: "underline" }}

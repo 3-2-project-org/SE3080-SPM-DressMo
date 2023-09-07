@@ -8,7 +8,7 @@ const Contact = () => {
       <h2>
         Reach out to Project Admin at{" "}
         <Link
-          to="https://www.linkedin.com/in/shfbcvbcwet-khacvbcvbtri-4ab216196/"
+          to="https://www.linkedin.com/in/shwet-khatri-4ab216196/"
           target="_blank"
         >
           LinkedIn
