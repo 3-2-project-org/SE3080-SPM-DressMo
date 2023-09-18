@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Feedback = () => {
   return (
     <div className="container">
-      <h1>Thanks for exploring AR-Webstore.</h1>
+      <h1>Thanks for exploring DressMo.</h1>
       <h3>
         Share your views on the questions below at{" "}
         <Link
@@ -13,14 +13,14 @@ const Feedback = () => {
           target="_blank"
           className="email"
         >
-          shwetkhatri2001@gmail.com
+          dressmolk@gmail.com
         </Link>
       </h3>
 
       <div>
         <form>
           <div className="form-field">
-            <label>What did you like the most about AR-Webstore ?</label>
+            <label>What did you like the most about Dressmo ?</label>
             <textarea
               type="text"
               placeholder="I would like to say ..."
@@ -39,7 +39,7 @@ const Feedback = () => {
           <div className="form-field">
             <label>
               What are the other features that excites you to have them on
-              AR-Webstore ?
+              Dressmo ?
             </label>
             <textarea
               type="text"

@@ -9,7 +9,7 @@ function Footer() {
         <div class="contact-content">
           <Link to="/"> Home </Link>
           <Link
-            to="https://github.com/cxvxcvcxv/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
+            to="#"
             target="_blank"
           >
             About
@@ -34,18 +34,18 @@ function Footer() {
 
         <div className="contact-content">
           <Link
-            to="https://github.com/SxcvxcvcxvhwetKhatxcvcxvcxvri2001/AR-Webstore"
+            to="#"
             target="_blank"
           >
             GitHub
           </Link>
           <Link
-            to="https://www.linkedin.com/in/shwet-khatri-4ab216196/"
+            to="#"
             target="_blank"
           >
             LinkedIn
           </Link>
-          <Link to="https://twitter.com/shwetkhatri2001" target="_blank">
+          <Link to="#" target="_blank">
             Twitter
           </Link>
         </div>
@@ -63,7 +63,7 @@ function Footer() {
         </form>
       </div>
       <div class="last">
-        <p>@ 2023 AR-DressSpace | All Rights Reserved</p>
+        <p>@ 2023 DressMo | All Rights Reserved</p>
       </div>
     </div>
   );

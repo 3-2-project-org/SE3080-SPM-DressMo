@@ -15,7 +15,7 @@ const Contact = () => {
         </Link>{" "}
         and{" "}
         <Link to="mailto:shwetkhatri2001@gmail.com" target="_blank">
-          shwetkhatri2001@gmail.com
+          dfgdfgdfg@gmail.com
         </Link>
       </h2>
     </div>

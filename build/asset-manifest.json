@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.77621542.css",
-    "main.js": "/static/js/main.30159da0.js",
+    "main.css": "/static/css/main.f783213d.css",
+    "main.js": "/static/js/main.08d6ae01.js",
+    "static/media/2.glb": "/static/media/2.4da689ebe5d946acd0a3.glb",
+    "static/media/2.usdz": "/static/media/2.5d38a7d1c73866169926.usdz",
     "static/media/shirt.glb": "/static/media/shirt.ad7712266d78d4b37747.glb",
+    "static/media/test.usdz": "/static/media/test.7872ff04a40a89ca5ca4.usdz",
     "static/media/shirt.usdz": "/static/media/shirt.962789534f30c7393639.usdz",
+    "static/media/test.glb": "/static/media/test.50164512ec247c5259a7.glb",
     "static/media/5.usdz": "/static/media/5.4e0a563e814e7a482f67.usdz",
+    "static/media/shoe.glb": "/static/media/shoe.5bf5900bf247fd351525.glb",
     "static/media/3.glb": "/static/media/3.15034f7de948af16de0e.glb",
     "static/media/5.glb": "/static/media/5.c1e32b6e48dd9c4b257d.glb",
     "static/media/3.usdz": "/static/media/3.9725c54016c6c2bc3d4b.usdz",
     "static/media/4.glb": "/static/media/4.6952e8290c6577b9d790.glb",
     "static/media/4.usdz": "/static/media/4.583617f963993cebd57d.usdz",
     "index.html": "/index.html",
-    "main.77621542.css.map": "/static/css/main.77621542.css.map",
-    "main.30159da0.js.map": "/static/js/main.30159da0.js.map"
+    "main.f783213d.css.map": "/static/css/main.f783213d.css.map",
+    "main.08d6ae01.js.map": "/static/js/main.08d6ae01.js.map"
   },
   "entrypoints": [
-    "static/css/main.77621542.css",
-    "static/js/main.30159da0.js"
+    "static/css/main.f783213d.css",
+    "static/js/main.08d6ae01.js"
   ]
 }

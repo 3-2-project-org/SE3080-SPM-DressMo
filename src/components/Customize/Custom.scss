@@ -1,124 +1,104 @@
-// /* Default styles for larger screens */
-// .featuredProducts {
-//   margin: 100px 200px;
-
-//   .top {
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     margin-bottom: 50px;
-
-//     h1 {
-//       flex: 2;
-//       text-transform: capitalize;
-//     }
-
-//     p {
-//       flex: 3;
-//       color: gray;
-//     }
-//   }
-
-//   .bottom {
-//     display: flex;
-//     justify-content: center;
-//     gap: 50px;
-//   }
-// }
-
-// /* Media query for mobile devices */
-// @media (max-width: 767px) {
-//   .featuredProducts {
-//     margin: 50px 20px;
-
-//     .top {
-//       flex-direction: column;
-//       text-align: center;
-//       margin-bottom: 20px;
-
-//       h1 {
-//         flex: none;
-//       }
-
-//       p {
-//         flex: none;
-//         margin-top: 10px;
-//       }
-//     }
-
-//     .bottom {
-//       flex-direction: column;
-//       align-items: center;
-//       gap: 20px;
-//     }
-//   }
-// }
+/* Custom.scss */
 
 #container {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 24px auto;
-    max-width: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200vh;
+
+}
+
+#customization {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
   }
-  
-  #model {
-    height: 512px;
-    position: relative;
-    width: 256px;
-  
-    #pantsImg,
-    #shirtImg,
-    #shoesImg {
-      left: 0;
-      position: absolute;
-      top: 0;
-    }
-  
-    #pantsImg {
-      left: 81px;
-      top: 233px;
-    }
-  
-    #shirtImg {
-      left: 67px;
-      top: 95px;
-    }
-  
-    #shoesImg {
-      left: 84px;
-      top: 450px;
-    }
-  }
-  
+
   #sliderPicker {
-    border: solid 2px #999;
-    border-radius: 8px;
-    font: normal 14px/1.2 sans-serif;
-    height: auto;
-    margin-top: 80px;
-    max-height: 250px;
-    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  #model {
+    margin-bottom: 20px;
+    position: relative;
+
+    img {
+      max-width: 100%;
+      transition: filter 0.5s ease;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  #productInfo {
+    margin-top: 20px;
+    font-size: 18px;
+
     p {
-      font-size: 18px;
-      font-weight: bold;
-      line-height: 2;
+      margin: 5px 0;
     }
-  
-    #colorPicker {
-      padding: 0 24px;
+  }
+
+  #cart {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+
+    h2 {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #333;
     }
-  
-    ul[id="colorTarget"] {
-      display: flex;
-      flex-flow: row nowrap;
+
+    ul {
       list-style: none;
-      margin: 0 0 12px;
       padding: 0;
-  
+
       li {
-        margin-right: 1em;
+        font-size: 16px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+          background-color: #dc3545;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 10px;
+          font-size: 14px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #c82333;
+          }
+        }
       }
     }
   }
-  
-  
+}

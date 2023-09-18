@@ -3,12 +3,14 @@
   height: 80vh;
   gap: 10px;
   margin: 10px;
+  
 
   .col {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
   }
 
   .col-l {
@@ -21,13 +23,15 @@
     gap: 10px;
     position: relative;
     overflow: hidden;
+    border-radius: 15px;
 
     button{
       position: absolute;
       min-width: 100px;
       width: fit-content;
-      height: 50px;
+      height: 40px;
       padding: 10px;
+      border-radius: 125px;
       top: 0;
       bottom: 0;
       left: 0;
@@ -39,7 +43,10 @@
       text-transform: uppercase;
       font-weight: 500;
     }
-
+    button:hover {
+      background-color: rgba(255, 255, 255, 0.4); /* Slightly more opaque on hover */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect on hover */
+    }
     img{
       width: 100%;
       height: 100%;

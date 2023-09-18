@@ -105,7 +105,7 @@ const ModelViewer = ({ item }) => {
                 <span>&#9733;</span>
               </div>
             </div>
-            <div>Rs. 1000</div>
+            <div>Rs. 3700</div>
             {!ARSupported && <h5>Scan the QR code for AR View on mobile</h5>}
           </div>
           <div className="add-icon">+</div>

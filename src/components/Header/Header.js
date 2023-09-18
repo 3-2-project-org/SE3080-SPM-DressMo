@@ -10,7 +10,6 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
-
 const Header = () => {
   const [showMobileSidebar, setShowMobileSidebar] = useState(true);
 
@@ -37,7 +36,7 @@ const Header = () => {
                 onClick={closeMobileSidebar}
                 className="project-title"
               >
-                AR DressSpace
+                DressMo
               </Link>
             </h3>
             <div className="mobile-menu-icon" onClick={toggleMobileSidebar}>
@@ -57,7 +56,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="https://github.com/SxcvxcvhwetKhatri20cxvxcvxcv01/AR-Webstore#hi--shwet-here-and-welcome-to-ar-webstore"
+              to="#"
               target="_blank"
               onClick={toggleMobileSidebar}
               // activeStyle={{ color: "blue", textDecoration: "underline" }}
@@ -79,15 +78,39 @@ const Header = () => {
             >
               Contact Us
             </Link>
-            <div className="cartIcon" onClick={() => setOpen(!open)}>
-                <ShoppingCartOutlinedIcon />
-                {/* <span>{products.length}</span>  */}
-              </div>
+
+            <Link
+              to="/cart"
+              onClick={toggleMobileSidebar}
+              // activeStyle={{ color: "blue", textDecoration: "underline" }}
+            >
+              <ShoppingCartOutlinedIcon />
+            </Link>
+
             <div className="icons">
-              <SearchIcon />
-              <PersonOutlineOutlinedIcon />
-              <FavoriteBorderOutlinedIcon />
-          
+              <Link
+                to="/favourite"
+                onClick={toggleMobileSidebar}
+                // activeStyle={{ color: "blue", textDecoration: "underline" }}
+              >
+                <FavoriteBorderOutlinedIcon />
+              </Link>
+
+              <Link
+                to="/search"
+                onClick={toggleMobileSidebar}
+                // activeStyle={{ color: "blue", textDecoration: "underline" }}
+              >
+                <SearchIcon />
+              </Link>
+
+              <Link
+                to="/person"
+                onClick={toggleMobileSidebar}
+                // activeStyle={{ color: "blue", textDecoration: "underline" }}
+              >
+                <PersonOutlineOutlinedIcon />
+              </Link>
             </div>
           </ul>
         </nav>
