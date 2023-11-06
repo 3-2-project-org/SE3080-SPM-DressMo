@@ -18,7 +18,7 @@
     "axios": "^1.2.0",
     "drei": "^2.2.21",
     "install": "^0.13.0",
-    "npm": "^9.1.2",
+    "npm": "^10.2.3",
     "qrcode.react": "^3.1.0",
    
     "@react-spring/three": "^9.6.1",
